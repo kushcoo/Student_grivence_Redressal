@@ -1,41 +1,66 @@
-**Student Grievance Redressal**
+# Grievance Redressal System
 
- **Introduction** 
- 
-1. The Student Grievance Redressal System is designed to create a transparent, structured, and reliable way for students to raise concerns.  
-2. Traditional methods like paper forms or informal complaints often get delayed or ignored; this system ensures grievances are properly documented and tracked.  
-3. The platform provides fairness and accountability by involving students, faculty, and administrators in a role-based workflow.  
-4. It encourages timely resolution of academic, administrative, or personal issues that impact student life.  
-5. By digitizing the process, institutions can improve efficiency, reduce delays, and strengthen student trust.  
-6. The system is not only about complaint management—it is about building a student-friendly and responsive academic environment.  
+If any one needs help on the project or getting error you can reach out to me suraj.bhandarkar13@gmail.com
 
- **Key Features** 
- 
-1. User-friendly interface for grievance submission.  
-2. Role-based access for students, faculty, and administrators.  
-3. Real-time grievance tracking system.  
-4. Dashboard for administrators to view, prioritize, and resolve issues.  
-5. Categorization of grievances (academic, administrative, personal, etc.).  
-6. Notification/alert system to keep students updated.  
+Watch the Video on how to set up the project: https://youtu.be/2IZ5bN7t9nY
 
- **Objectives**  
+# Introduction
+1. The Website is developed for a college Grievance Redressal System in an informal manner i.e. through direct supervision of the principal and managing director earlier. 
+2.  But in formal sense a website is to be developed which will control the grievance redressal system online. 
+3.	The function of the website cell is to look into the complaints raised by any student or staff, and judge its merit. 
+4.	The Grievance cell is also empowered to look into matters of harassment. Anyone with a genuine grievance can register and submit their complaint which will be approached by the department members in person, or in consultation with the officer in-charge Students Grievance Cell. 
+5.	Students, Staff and Members of college can register their complaints and grievances online.
 
-1. Provide students with a reliable grievance reporting system.  
-2. Streamline the grievance handling process.  
-3. Ensure accountability at every stage of resolution.  
-4. Promote transparency and fairness within institutions.  
-5. Strengthen communication between students and administration.  
+# Objectives:
+1.	To make complaints easier to coordinate, monitor, track and resolve the Grievances. 
+2.	To provide an effective tool to identify and target problem areas and find solutions.
+3.	Prompt and specific retrieval of data.
+4.	Controlling redundancy in storing the same data multiple times.
+5.	Accuracy, timeliness and comprehensiveness of the system output. 
+6.	Enhancement in the completion of work within the constraints of time. 
 
- **Tech Stack** 
+# Outcomes:
+1.	To solve Grievances that has been submitted through the application which has been issued by the users in the most efficient way possible.
+2.	To ensure transparency in institutions imparting technical education, with the supreme objective of preventing unfair practices and to provide a mechanism to students, parents, teachers and other non-teaching staff for the redressal of their complaints.
 
-1. Frontend: HTML, CSS, JavaScript / React / Angular (as per your implementation).  
-2. Backend: Node.js / Django / Flask / Spring Boot.  
-3. Database: MySQL / MongoDB / SQLite.  
-4. Other Tools: Git, GitHub, REST APIs.  
+# Djnago commands
+```
+pip install django
+pip3 install -r requirements.txt (Python 3)
 
- **Contribution**  
-1. Fork the repository.  
-2. Create a new branch for your feature/bug fix.  
-3. Commit your changes and push the branch.  
-4. Submit a pull request.  
-5. Suggestions, improvements, and feature requests are welcome.   
+python djnango makemigrations
+python django migrate
+
+```
+# DataBase
+
+```
+postgresq
+```
+# Project Images:
+## Home Page
+> ![Home](https://user-images.githubusercontent.com/42907076/99896208-5fec7700-2cb4-11eb-96e2-9fc0ef58f76a.png)
+
+## Registration Page
+> ![Registration_Page](https://user-images.githubusercontent.com/42907076/99896238-b35ec500-2cb4-11eb-856f-577c659af53c.png)
+> ![Registration_Page2](https://user-images.githubusercontent.com/42907076/99896239-b5c11f00-2cb4-11eb-82bd-29569597d735.png)
+
+## Login Page
+> ![Login](https://user-images.githubusercontent.com/42907076/99896242-bce82d00-2cb4-11eb-9a63-96bc8aa6255a.png)
+> ![LoginPage](https://user-images.githubusercontent.com/42907076/99896247-c07bb400-2cb4-11eb-9024-a15f9772f98b.png)
+> ![Login-Dashboard](https://user-images.githubusercontent.com/42907076/99896252-ca9db280-2cb4-11eb-8962-629f1ebbffe1.png)
+
+## User Login
+> ![Profile](https://user-images.githubusercontent.com/42907076/99896257-d25d5700-2cb4-11eb-85f8-a8c5466e67d4.png)
+> ![AddComplaints](https://user-images.githubusercontent.com/42907076/99896259-d7220b00-2cb4-11eb-97a0-28efea307cc3.png)
+> ![Passowrd Reset](https://user-images.githubusercontent.com/42907076/99896262-da1cfb80-2cb4-11eb-8f61-6a286715e3fa.png)
+> ![AddComplaints](https://user-images.githubusercontent.com/42907076/99896267-e903ae00-2cb4-11eb-8f2c-9b18eda6f612.png)
+> ![ComplaintSent](https://user-images.githubusercontent.com/42907076/99896270-ebfe9e80-2cb4-11eb-969f-2abf2d0984e5.png)
+> ![Unsolved-Complaint](https://user-images.githubusercontent.com/42907076/99896273-f325ac80-2cb4-11eb-86fa-4fefdb158e92.png)
+
+## Admin Login
+> ![Admin-login](https://user-images.githubusercontent.com/42907076/99896297-41d34680-2cb5-11eb-8d14-116c7a465d0c.png)
+> ![Admin-Table](https://user-images.githubusercontent.com/42907076/99896298-44ce3700-2cb5-11eb-9881-ccf5563d1def.png)
+> ![Complaint Upadte](https://user-images.githubusercontent.com/42907076/99896299-47309100-2cb5-11eb-8330-98a8cd06f436.png)
+> ![Complaints Table](https://user-images.githubusercontent.com/42907076/99896301-4ef03580-2cb5-11eb-9196-833bcef98066.png)
+> ![Stats table](https://user-images.githubusercontent.com/42907076/99896303-5283bc80-2cb5-11eb-9b09-78710408c7f8.png)
